@@ -1,0 +1,55 @@
+/*!
+ * Start Bootstrap - Blog Home (http://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+.tb{
+	 background-color: #3d7737;
+ }
+ .card-header{
+	 background-color:#9aad98;
+ }
+ .Scrollcard{
+	 height: 150px;
+    overflow: scroll;
+	overflow-x:hidden;
+}
+ .Scrollcardl{
+	 height: 150px;
+    overflow: scroll;
+	overflow-y:hidden;
+}
+
+.btn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.chat{
+	border: 1px solid gray;
+	border-radius: 4px;
+	}
+	
+.CartaShow{
+	display:inline-block;
+  
+}
+}

@@ -1,0 +1,33 @@
+body, html{
+  width:100%;
+  height:90%;
+  background: #dcdfe8;
+}
+
+.k{
+	color:#fff;
+}
+.k a, a:visited, a:link, a:hover, a:active{
+	color:#fff;
+}
+
+.logo{
+	width: 90px;
+	height: 90px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	line-height: 90px;
+}
+.logo hl{
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.container-fluid{
+ border-radius: 0px;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+	background-color: #DCDCDC;
+}

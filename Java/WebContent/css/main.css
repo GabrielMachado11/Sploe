@@ -1,0 +1,285 @@
+.nav a{
+ color: white;
+ font-size: 20px;
+}
+
+
+.jumbotron {
+  background-image: url('download5.jpg');
+  height: 500px;
+  position: relative;
+  top: -20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:120px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  
+  background-color: #dcdfe8;
+  position:relative;
+  top: -20px;
+  
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.learn-more p{
+	color: #000000;
+}
+
+
+.learn-more a {
+  color: #00b0ff;
+}
+.neighborhood-guides{
+    background-color:#104123;
+	border-bottom: 1px solid #dbdbdb;  
+	position: relative;
+	top: -20px;
+}
+.neighborhood-guides h2{
+    color:#ffffff;
+    font-size:24px;
+    
+}
+.neighborhood-guides p{
+	color:#ffffff;
+    margin-bottom: 13px;
+    font-size:15px;
+    
+}
+.animatedbutton {    /*Botão para "logar", aparece após um cadastro bem sucedido*/
+  border-radius: 4px;
+
+  background-color: #16823f;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.animatedbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.animatedbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.animatedbutton:hover span {
+  padding-right: 25px;
+}
+
+.animatedbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.animatedbutton2 { /* Botão para "tentar novamente", aparece após um cadastro falho*/
+  border-radius: 4px;
+
+  background-color: #16823f;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.animatedbutton2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.animatedbutton2 span:after {
+  content: '\00AB';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.animatedbutton2:hover span {
+  padding-right: 25px;
+}
+
+.animatedbutton2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.grad1 {
+    height: 1400px;
+	color: white;
+	position: relative;
+	 background-repeat: no-repeat;
+    background: #104123; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#104123, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#104123, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#104123, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#104123, black); /* Standard syntax (must be last) */
+}
+.grad1 h1{
+   text-align:center; 
+}
+
+.container2 {
+	color: black;
+ background: white;
+ border: 5px;
+ border-color: black;
+ border-radius:6px;
+}
+
+
+
+.sug input[type=text],[type=password], select, textarea { /* sub é o Formulário de sugestões*/
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.sug input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.sug textarea{
+	height:200px
+}
+.sug input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.sug .cont{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+}
+
+/* Modal Content */
+.modal-content {
+    position: fixed;
+    bottom: 0;
+    background-color: #fefefe;
+    width: 100%;
+	color: #000;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+	
+}
+.modal p{ color: black;}
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+     background-color:#104123;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px; color:black;}
+
+.modal-footer {
+    padding: 2px 16px;
+     background-color:#104123;
+    color: white;
+}
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
